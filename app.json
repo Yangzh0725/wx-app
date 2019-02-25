@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/board/board",
+    "pages/splash/splash",
+    "pages/search/search",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/my/my",
+    "pages/detail/detail",
+    "pages/list/list",
+    "utils/douban.js"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#292929",
+    "navigationBarTitleText": "豆瓣电影",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#f2f2f2",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "color": "#6e6d6b",
+    "selectedColor": "#fff",
+    "borderStyle": "black",
+    "backgroundColor": "#292929",
+    "list": [
+      {
+        "pagePath": "pages/board/board",
+        "iconPath": "images/paixingbang1.png",
+        "selectedIconPath": "images/paixingbang.png",
+        "text": "排行榜"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "iconPath": "images/sousuo2.png",
+        "selectedIconPath": "images/sousuo.png",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "iconPath": "images/wode3.png",
+        "selectedIconPath": "images/wode.png",
+        "text": "我的"
+      }
+    ]
+  }
+}

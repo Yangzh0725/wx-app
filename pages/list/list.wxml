@@ -1,0 +1,15 @@
+<view class="container">
+  <navigator url="../detail/detail">
+    <view class='detail'>
+      <image class="poster" src="https://img3.doubanio.com/view/movie_poster_cover/lpst/public/p2380677316.jpg" mode="aspectFit"/>
+      <view class="meta">
+        <text class="title">湄公河行动</text>
+        <text class="sub-title">湄公河行动(2016)</text>
+        <text class="info">导演：<block> 林超贤 </block></text>
+      </view>
+      <view>
+        <text class="rating">8.2</text>
+      </view>
+    </view>
+  </navigator>
+</view>

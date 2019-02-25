@@ -1,0 +1,60 @@
+<view class='container'>
+  <view class='slide'>
+    <swiper class='swp' indicator-dots="true" autoplay="true" interval="1000" duration="300" circular>
+      <swiper-item>
+        <navigator url="../detail/detail">
+          <image class='nav-img' 
+            src="https://img3.doubanio.com/view/photo/m/public/p2545472803.webp" mode="aspectFill" /> 
+        </navigator>
+      </swiper-item>
+      <swiper-item>
+        <navigator>
+          <image class='nav-img'                src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2544987866.webp" mode="aspectFill" /> 
+        </navigator>
+      </swiper-item>
+      <swiper-item>
+        <navigator>
+          <image class='nav-img'    src="https://img3.doubanio.com/view/photo/s_ratio_poster/public/p2546255256.webp" mode="aspectFill" /> 
+        </navigator>
+      </swiper-item>
+    </swiper>
+  </view>
+  <scroll-view class='board' scroll-y="true">
+    <navigator url="../list/list">
+      <view class='board-item'>
+        <text class='board-item-title'>正在热映</text>
+        <image class='arrow' src='../../images/arrowright.png'/>
+      </view>
+    </navigator>
+    <navigator url="../list/list">
+      <view class='board-item'>
+        <text class='board-item-title'>即将上映</text>
+        <image class='arrow' src='../../images/arrowright.png'/>
+      </view>
+    </navigator>
+    <navigator url="../list/list">
+      <view class='board-item'>
+        <text class='board-item-title'>Top200</text>
+        <image class='arrow' src='../../images/arrowright.png'/>
+      </view>
+    </navigator>
+    <navigator url="../list/list">
+      <view class='board-item'>
+        <text class='board-item-title'>口碑榜</text>
+        <image class='arrow' src='../../images/arrowright.png'/>
+      </view>
+    </navigator>
+    <navigator url="../list/list">
+      <view class='board-item'>
+        <text class='board-item-title'>新片榜</text>
+        <image class='arrow' src='../../images/arrowright.png'/>
+      </view>
+    </navigator>
+    <navigator url="../list/list">
+      <view class='board-item'>
+        <text class='board-item-title'>北美票房</text>
+        <image class='arrow' src='../../images/arrowright.png'/>
+      </view>
+    </navigator>
+  </scroll-view>
+</view>

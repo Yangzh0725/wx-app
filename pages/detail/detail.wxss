@@ -1,0 +1,58 @@
+/* pages/detail/detail.wxss */
+.container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.background{
+  position:fixed;
+  left:0;
+  right:0;
+  top:0;
+  bottom: 0;
+  opacity: .1;
+  width:100%;
+  height:100%;
+  z-index:-1000;
+}
+.meta{
+  display:flex;
+  flex-direction:column; 
+  align-items:center;
+  padding:50rpx 40rpx;
+}
+.poster{
+  width: 100%;
+  height: 800rpx;
+  margin: 20rpx;
+}
+.title{
+  color:#000;
+  font-size:40rpx;
+}
+.info{
+  margin-top:20rpx;
+  font-size: 20rpx;
+  color:#333;
+  width:80%;
+}
+.summary{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items:center;
+}
+.label{
+  font-size: 40rpx;
+  color:#000;
+  width:80%;
+  
+}
+.content{
+  margin-top:20rpx;
+  width:80%;
+  font-size: 30rpx;
+  color:#444;
+  text-indent: 2em;
+}

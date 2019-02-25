@@ -1,0 +1,23 @@
+.container{
+  height:100%;
+}
+.swp{
+  height:100%;
+}
+.slide-image {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  opacity: 0.9;
+}
+.btn{
+  width:300rpx;
+  position:absolute;
+  left:0;
+  right:0;
+  margin:0 auto;
+  bottom: 300rpx;
+  border:5rpx solid #ccc;
+  color:#444;
+  opacity:.3;
+}

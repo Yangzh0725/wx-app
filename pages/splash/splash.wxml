@@ -1,0 +1,18 @@
+<view class='container'>
+  <swiper class='swp' indicator-dots="true">
+    <swiper-item class='swp-item'>
+      <image src='https://img3.doubanio.com/view/photo/m/public/p2545472803.webp' class="slide-image" mode="aspectFill"/>
+    </swiper-item>
+    <swiper-item class='swp-item'>
+      <image src='https://img3.doubanio.com/view/photo/m/public/p2545553064.webp' class="slide-image" mode="aspectFill"/>
+    </swiper-item>
+    <swiper-item class='swp-item1'>
+      <image src='https://img3.doubanio.com/view/photo/m/public/p2546876262.webp' class="slide-image" mode="aspectFill"/>
+      <!-- <navigator url="../detail/detail"> -->
+      <navigator>
+        <button class='btn'>立即体验</button>
+      </navigator>
+    </swiper-item>
+  </swiper>
+  
+</view>
